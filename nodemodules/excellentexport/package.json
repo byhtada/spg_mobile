@@ -1,0 +1,88 @@
+{
+  "_from": "excellentexport",
+  "_id": "excellentexport@3.7.3",
+  "_inBundle": false,
+  "_integrity": "sha512-cPGzYpKYHqyPh9EhcArDzf+ORkjKNo6NrSGQc9ubtPClk/941F0wyEg0uN0AZehuCI4qF1ZWE7QZumRv9LLLMA==",
+  "_location": "/excellentexport",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "excellentexport",
+    "name": "excellentexport",
+    "escapedName": "excellentexport",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/excellentexport/-/excellentexport-3.7.3.tgz",
+  "_shasum": "abbc8ed0707c2228d85d9a71c926b08fe0495448",
+  "_spec": "excellentexport",
+  "_where": "C:\\Projects\\SPG\\spg_client",
+  "author": {
+    "name": "Jordi Burgos",
+    "email": "jordiburgos@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/jmaister/excellentexport/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Client side JavaScript export to Excel or CSV",
+  "devDependencies": {
+    "@babel/core": "7.15.8",
+    "@babel/plugin-proposal-class-properties": "7.14.5",
+    "@babel/plugin-transform-flow-strip-types": "7.14.5",
+    "@babel/preset-env": "7.15.8",
+    "@types/jest": "27.0.2",
+    "@types/jest-environment-puppeteer": "4.4.1",
+    "@types/node": "16.11.6",
+    "@types/puppeteer": "5.4.4",
+    "babel-loader": "8.2.3",
+    "blob-polyfill": "6.0.20211015",
+    "coveralls": "3.1.1",
+    "cross-env": "7.0.3",
+    "html-loader": "3.0.0",
+    "jest": "27.3.1",
+    "jest-puppeteer": "6.0.0",
+    "puppeteer": "10.4.0",
+    "ts-jest": "27.0.7",
+    "ts-loader": "9.2.6",
+    "ts-node": "10.3.0",
+    "typescript": "4.3.4",
+    "webdriverio": "7.16.3",
+    "webpack": "5.60.0",
+    "webpack-cli": "4.9.1",
+    "webpack-dev-server": "4.3.1",
+    "webpack-node-externals": "3.0.0",
+    "xlsx": "0.17.3"
+  },
+  "homepage": "http://jordiburgos.com",
+  "keywords": [
+    "excel",
+    "export",
+    "csv",
+    "javascript",
+    "client",
+    "side"
+  ],
+  "license": "MIT",
+  "main": "dist/excellentexport.js",
+  "name": "excellentexport",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jmaister/excellentexport.git"
+  },
+  "scripts": {
+    "build": "webpack --config webpack.config.js --progress --mode development --watch",
+    "jest": "jest --coverage",
+    "prod": "webpack --config webpack.config.js --progress --mode production",
+    "test": "jest --coverage && coveralls < coverage/lcov.info",
+    "watch": "jest --watch"
+  },
+  "version": "3.7.3"
+}

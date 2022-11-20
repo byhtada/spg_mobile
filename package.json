@@ -1,0 +1,20 @@
+{
+    "name": "YourPartners",
+    "version": "1.0.0",
+    "description": "description",
+    "main": "index.html",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "ip",
+        "geo",
+        "country"
+    ],
+    "author": "Parama Purusha",
+    "license": "ISC",
+    "dependencies": {
+        "autosize": "^4.0.2",
+        "intl-tel-input": "^17.0.18"
+    }
+}
